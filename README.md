@@ -2,8 +2,10 @@
 batch computing acoustic indexes using parallel processing
 
 # Objectif du script : 
-appliquer les indices acoustiques sur les fichiers wav bruts d'une minutes collectés par des capteurs wildlife acoustics, sur la base d'une structure de fichiers
+Appliquer les indices acoustiques sur les fichiers wav bruts d'une minutes collectés par des capteurs wildlife acoustics, sur la base d'une structure de fichiers
+
 ``` projet / session / parcelle / Data2 / fichiers sons ```
+
 Le script consiste essentiellement en une sérialisation de la fonction AcouIndexAlphaCustom créée par Amandine Gasc, qui calcule les indices acoustiques les plus communs (ACI, NDSI, BI, ADI, NP).
 Il est conçu pour traiter des fichiers wav d'une minute, mais cela est facilement adaptable.
 
